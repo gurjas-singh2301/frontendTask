@@ -29,7 +29,7 @@ function MultiStepForm() {
         let isValid = true;
 
         if (formData.name) {
-            const re = /^[A-Za-z]+$/;
+            const re = /^[A-Z a-z]+$/;
             const value = formData.name;
             if (value === "" || re.test(value)) {
                 console.log(value);
