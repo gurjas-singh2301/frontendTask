@@ -178,7 +178,6 @@ function MultiStepForm() {
                     </button>
                 </div>
             )}
-            {currentStep === 4 && <button type="submit">Submit</button>}
         </form>
     );
 }
